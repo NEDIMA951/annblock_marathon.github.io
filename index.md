@@ -189,16 +189,16 @@
                     <div class="footer__top-links">
                         <ul class="social-media__links">
                             <li class="social-link">
-                                <a class="social social-youtube" href="www.youtube.com" target="_blank"></a>
+                                <a class="social social-youtube" href="http://www.youtube.com" target="_blank"></a>
                             </li>
                             <li class="social-link">
-                                <a class="social social-vk" href="www.vk.com" target="_blank"></a>
+                                <a class="social social-vk" href="http://www.vk.com" target="_blank"></a>
                             </li>
                             <li class="social-link">
-                                <a class="social social-facebook" href="www.facebook.com" target="_blank"></a>
+                                <a class="social social-facebook" href="http://www.facebook.com" target="_blank"></a>
                             </li>
                             <li class="social-link">
-                                <a class="social social-instagram" href="www.instagram.com" target="_blank"></a>
+                                <a class="social social-instagram" href="http://www.instagram.com" target="_blank"></a>
                             </li>
                         </ul>
                     </div>
