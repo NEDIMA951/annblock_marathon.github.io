@@ -31,8 +31,6 @@ li {
   padding: 0;
 }
 /*-----HEADER-----*/
-.header {
-}
 .header__top-line {
   padding: 18px 0 17px;
 }
@@ -44,8 +42,6 @@ li {
 .nav__menu li + li {
   margin-left: 30px;
 }
-.menu {
-}
 .header__second-line {
   background-color: #fff;
 }
@@ -53,7 +49,6 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /*padding: 32px 36px 39px 32px;*/
 }
 .header__logo {
   display: flex;
@@ -106,6 +101,7 @@ hr {
   background-color: #efefef;
   height: 1px;
 }
+/*-----section__SALE-----*/
 .sale {
   padding: 160px 0 195px;
   background-image: url(../images/bg.png);
@@ -113,8 +109,6 @@ hr {
   background-size: cover;
   background-position: center center;
   color: #fff;
-}
-.sale__inner {
 }
 .sale__title h1 {
   font-size: 48px;
@@ -140,12 +134,7 @@ hr {
   background-color: #fff;
   color: #000000;
 }
-.goods {
-}
-.container {
-}
-.goods__inner {
-}
+/*-----section__GOODS-----*/
 .goods__title {
   background-image: url(../images/car.svg);
   background-repeat: no-repeat;
@@ -183,13 +172,10 @@ hr {
   letter-spacing: 0.5px;
   margin-bottom: 15px;
 }
-.goods__offer-btn {
-}
-.green__button {
-}
 .goods__btn:hover {
   border-color: #66c05d;
 }
+/*-----section__ABOUT-----*/
 .about {
   padding-bottom: 135px;
 }
@@ -205,8 +191,6 @@ hr {
 }
 .mail__item {
   margin-right: 65px;
-}
-.mail__item-title {
 }
 .mail__title-h3 {
   color: #fff;
@@ -242,10 +226,6 @@ hr {
   padding: 20px 42px 25px 42px;
   width: 100%;
 }
-.store__item {
-}
-.store__item-title {
-}
 .store__title-h3 {
   color: #fff;
   font-size: 18px;
@@ -268,12 +248,9 @@ hr {
 .store-map__btn:hover {
   border-color: #66c05d;
 }
+/*-----FOOTER-----*/
 .footer__top {
   background-color: #fff;
-}
-.container {
-}
-.footer__inner {
 }
 .footer__top-inner {
   display: flex;
@@ -291,6 +268,7 @@ hr {
 }
 .social-link a {
   border: 2px solid #66c05d;
+  transition: 0.2s ease;
   display: block;
   width: 45px;
   height: 45px;
@@ -301,12 +279,9 @@ hr {
 .social-media__links li + li {
   margin-left: 20px;
 }
-.social {
-}
 .social-youtube {
   background-image: url(../images/youtubr.svg);
 }
-
 .social-vk {
   background-image: url(../images/vk.svg);
 }
@@ -316,19 +291,19 @@ hr {
 .social-instagram {
   background-image: url(../images/instagram.svg);
 }
+.social-youtube:hover,
+.social-vk:hover,
+.social-facebook:hover,
+.social-instagram:hover {
+  border: 5px solid #66c05d;
+}
 .footer__top-addres {
   font-size: 14px;
   font-weight: 400;
 }
-.footer__top-phone {
-}
 .footer__phone {
   font-size: 16px;
   font-weight: 400;
-}
-.phone__btn {
-}
-.footer__btn {
 }
 .footer__bottom-inner {
   display: flex;
